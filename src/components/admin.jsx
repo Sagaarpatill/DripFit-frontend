@@ -9,7 +9,7 @@ const Admin = () => {
 
   const callProfile = async () => {
     try {
-      const res = await fetch('http://localhost:3001/user', {
+      const res = await fetch('https://dripfit-backend.vercel.app/user', {
         method: 'GET',
         headers: {
           Accept: 'application/json',
